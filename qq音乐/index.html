@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>qq播放器</title>
+    <link rel="stylesheet" href="./css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="./js/player.js"></script>
+    <script src="./js/progress.js"></script>
+    <script src="./js/lyric.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <h1>
+            <a href="#"></a>
+        </h1>
+        <div class="seting">
+            <ul>
+                <li>登录</li>
+                <li>设置</li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content_info">
+            <div class="content_left">
+                <div class="toolbar">
+                    <span><i></i>收藏</span>
+                    <span><i></i>添加到</span>
+                    <span><i></i>下载</span>
+                    <span><i></i>删除</span>
+                    <span><i></i>清空列表</span>
+                </div>
+                <div class="list" data-mcs-theme="minimal-dark">
+                    <ul>
+                        <li class="list_title">
+                            <div class="list_check"><i></i></div>
+                            <div class="list_number"></div>
+                            <div class="list_name">歌曲</div>
+                            <div class="list_singer">歌手</div>
+                            <div class="list_time">时长</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content_right">
+                <div class="song_info">
+                    <a href="javascript:;" class="song_info_pic">
+                        <img src="img/lnj.jpg" alt="">
+                    </a>
+                    <div class="song_info_name">
+                        <a href="javascript:;"></a>
+                    </div>
+                    <div class="song_info_singer">
+                        <a href="javascript:;"></a>
+                    </div>
+                    <div class="song_info_album">
+                        <a href="javascript:;"></a>
+                    </div>
+                    <div class="song_lyric_container">
+                        <ul class="song_lyric"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_info">
+            <a href="javascript:;" class="music_pre"></a>
+            <a href="javascript:;" class="music_play"></a>
+            <a href="javascript:;" class="music_next"></a>
+            <div class="music_progress_info">
+                <div class="music_progress_top">
+                    <span class="music_progress_name"></span>
+                    <span class="music_progress_time"></span>
+                </div>
+                <div class="music_progress_bar">
+                    <div class="music_progress_line">
+                        <div class="music_progress_dot"></div>
+                    </div>
+                </div>
+            </div>
+            <a href="javascript:;" class="music_mode"></a>
+            <a href="javascript:;" class="music_fav"></a>
+            <a href="javascript:;" class="music_down"></a>
+            <a href="javascript:;" class="music_comment"></a>
+            <a href="javascript:;" class="music_only"></a>
+            <div class="music_voice_info">
+                <a href="javascript:;" class="music_voice_icon"></a>
+                <div class="music_voice_bar">
+                    <div class="music_voice_line">
+                        <div class="music_voice_dot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mask_bg"></div>
+    <div class="mask"></div>
+    <audio src=""></audio>
+</body>
+
+</html>
